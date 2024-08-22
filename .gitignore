@@ -8,7 +8,7 @@ lerna-debug.log*
 solution-queries.sql
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
+/build
 # Runtime data
 pids
 *.pid
@@ -114,7 +114,7 @@ dist
 
 # DynamoDB Local files
 .dynamodb/
-/build
+
 # TernJS port file
 .tern-port
 
